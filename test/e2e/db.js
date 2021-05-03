@@ -251,7 +251,7 @@ test('refreshJourney', async (t) => {
 	t.end()
 })
 
-test('journeysFromTrip – U Mehringdamm to U Naturkundemuseum, reroute to Spittelmarkt.', async (t) => {
+test.only('journeysFromTrip – U Mehringdamm to U Naturkundemuseum, reroute to Spittelmarkt.', async (t) => {
 	const blnMehringdamm = '730939'
 	const blnStadtmitte = '732541'
 	const blnNaturkundemuseum = '732539'
