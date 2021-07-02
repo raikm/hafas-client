@@ -40,7 +40,7 @@ const vbbProfile = require('hafas-client/p/vbb')
 
 const client = createClient(vbbProfile, 'my-awesome-program')
 
-client.stop('900000042101') // U Spichernstr.
+client.stop('900000042101', {linesOfStops: true}) // U Spichernstr.
 .then(console.log)
 .catch(console.error)
 ```
